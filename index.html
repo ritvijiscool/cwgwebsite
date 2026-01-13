@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cawabanga Records</title>
+  <meta name="description"
+    content="CaWaBanga Records - A music and art label showcasing culture, fashion, and creative expression.">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Navigation Trigger -->
+  <div class="nav-trigger" id="navTrigger">
+    <span class="menu-text">MENU</span>
+  </div>
+
+  <!-- Dropdown Navigation -->
+  <nav class="dropdown-nav" id="dropdownNav">
+    <div class="nav-close" id="navClose">×</div>
+    <ul class="nav-list">
+      <li><a href="#hero" class="nav-link">Home</a></li>
+      <li><a href="#merch" class="nav-link">Merch</a></li>
+      <li><a href="#artists" class="nav-link">Artists</a></li>
+      <li><a href="#socials" class="nav-link">Socials</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Content Wrapper -->
+  <div class="main-content">
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+      <div class="hero-content">
+        <h1 class="hero-title"><span class="char-c">C</span><span class="char-w">W</span><span
+            class="char-g reversed">G</span></h1>
+        <!-- <p class="hero-subtitle">RECORDS</p> -->
+        <!-- <div class="hero-copyright">@cawabangarecords ~ 2025</div> -->
+      </div>
+    </section>
+
+    <!-- Merch Section -->
+    <section class="merch-section" id="merch">
+      <h2 class="section-title">MERCH</h2>
+      <div class="merch-content">
+        <h2 class="coming-soon">Coming Soon</h2>
+      </div>
+    </section>
+
+    <!-- Artists Section -->
+    <section class="artists-section" id="artists">
+      <h2 class="section-title">ARTISTS</h2>
+      <div class="artist-slide active" data-artist="ritvisky">
+        <div class="artist-image-container">
+          <a href="https://www.instagram.com/ritvisky/" target="_blank" class="artist-link" id="ritviskyLink">
+            <div class="artist-image-placeholder" id="ritviskyImage">
+              <!-- Image will be added later -->
+            </div>
+          </a>
+        </div>
+        <h2 class="artist-name">ritvisky</h2>
+      </div>
+
+      <div class="artist-slide" data-artist="saygi322">
+        <div class="artist-image-container">
+          <a href="https://www.instagram.com/metesaygi/" target="_blank" class="artist-link" id="saygi322Link">
+            <div class="artist-image-placeholder" id="saygi322Image">
+              <!-- Image will be added later -->
+            </div>
+          </a>
+        </div>
+        <h2 class="artist-name">saygi322</h2>
+      </div>
+
+      <!-- Artist Navigation -->
+      <div class="artist-nav">
+        <button class="artist-nav-btn" id="prevArtist">←</button>
+        <button class="artist-nav-btn" id="nextArtist">→</button>
+      </div>
+    </section>
+
+    <!-- Socials Section -->
+    <section class="socials-section" id="socials">
+      <a href="https://www.instagram.com/cawabanga.records/" target="_blank" class="social-panel instagram-panel">
+        <div class="social-content">
+          <span class="social-name">Instagram</span>
+        </div>
+      </a>
+
+      <a href="https://www.youtube.com/@CawabangaRecords" target="_blank" class="social-panel youtube-panel">
+        <div class="social-content">
+          <span class="social-name">YouTube</span>
+        </div>
+      </a>
+
+      <a href="https://spotify.com" target="_blank" class="social-panel spotify-panel">
+        <div class="social-content">
+          <span class="social-name">Spotify</span>
+        </div>
+      </a>
+
+      <a href="https://music.apple.com" target="_blank" class="social-panel apple-panel">
+        <div class="social-content">
+          <span class="social-name">Apple Music</span>
+        </div>
+      </a>
+    </section>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
